@@ -24,4 +24,17 @@
 ---
 
 ## 2. Структура репозитория
-
+lab-dynamics/
+├── README.md # Описание проекта (этот файл)
+├── notebooks/ # Jupyter notebooks для каждого уровня
+│ ├── lab_easy.ipynb
+│ ├── lab_normal.ipynb
+│ └── lab_hard.ipynb
+├── src/ # Повторно используемый код Python
+│ ├── maps.py # Функции отображений, итераторы, устойчивость, Lyapunov
+│ ├── plotting.py # Функции построения cobweb, bifurcation, time series
+│ └── utils.py # Утилиты
+├── results/
+│ └── images/ # Сгенерированные графики
+├── report.pdf # Основной отчет (PDF из notebook или LaTeX)
+├── .gitignore # Игнорируемые файлы
