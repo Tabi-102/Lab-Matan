@@ -34,9 +34,21 @@ lab-dynamics/
 │ └── images/ # Сгенерированные графики
 ├── report.pdf # Основной отчет (PDF из notebook или LaTeX)
 ├── .gitignore # Игнорируемые файлы
+
 ## 3. Установка
 
 1. Клонируем репозиторий:
 ```bash
 git clone https://github.com/Tabi-102/Lab-Matan.git
 cd Lab-Matan
+```
+2. Создаем виртуальное окружение Python (рекомендуется):
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+3. Устанавливаем необходимые библиотеки:
+```bash
+pip install -r requirements.txt
+```
