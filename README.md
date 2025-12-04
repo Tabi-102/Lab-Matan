@@ -20,6 +20,7 @@
 ---
 
 ## 2. Структура репозитория
+```text
 lab-matan/
 ├── README.md
 ├── notebooks/
@@ -35,6 +36,7 @@ lab-matan/
 ├── report.pdf
 ├── .gitignore
 └── requirements.txt
+```
 
 ## 3. Установка
 
