@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments (Windows, Mac, Linux)
+venv/
+env/
+.venv/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# macOS cache file
+.DS_Store
+
+# Windows cache file
+Thumbs.db
+
+# Build/outputs
+results/*.csv
+results/*.txt
+results/*.dat
+results/images/*.png
+
+# Latex output
+*.aux
+*.out
+*.toc
+*.log
+*.pdf
