@@ -1,0 +1,11 @@
+# Core numerical library
+numpy>=1.24
+
+# Plotting and visualization
+matplotlib>=3.7
+
+# Optional: interactive notebooks
+jupyter>=1.0
+
+# Scientific computations, root-finding, extra utils
+scipy>=1.11
