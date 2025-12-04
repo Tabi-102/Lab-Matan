@@ -26,8 +26,7 @@ Lab-Matan/
 ├── report.pdf # Основной отчет (PDF из LaTeX)
 ├── src/ # Повторно используемый код Python
 │ ├── maps.py # Функции отображений, итераторы, устойчивость, Lyapunov
-│ ├── plotting.py # Функции построения cobweb, bifurcation, time series
-│ └── utils.py # Утилиты
+│ └── plotting.py # Функции построения cobweb, bifurcation, time series
 ├── results/
 │ └── images/ # Сгенерированные графики для отчета
 ├── requirements.txt # Необходимые библиотеки: numpy, matplotlib
